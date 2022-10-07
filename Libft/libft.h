@@ -15,6 +15,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
+# include <stddef.h>
 
 typedef struct s_list
 {
@@ -35,7 +36,7 @@ int		ft_memcmp(const void *pointer1, const void *pointer2, size_t size);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memset(void *ptr, int value, size_t count);
-char	*ft_strchr(const char *string, int searchedChar );
+char	*ft_strchr(const char *s, int c);
 char	*ft_strdup( const char *source );
 char	*ft_strjoin(char const *s1, char const *s2);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
@@ -43,7 +44,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *theString);
 int		ft_strncmp(const char *first, const char *second, size_t length);
 char	*ft_strnstr(const char	*big, const char *little, size_t len);
-char	*ft_strrchr(const char *string, int searchedChar);
+char	*ft_strrchr(const char *s, int c);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_tolower(int charact);
