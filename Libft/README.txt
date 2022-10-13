@@ -1,5 +1,5 @@
 War Machine test on my FTLIB
-Updated: Oct 7 2022
+Updated: Oct 13 2022
 --------------------------------------------------------------------------------------------
 |                                    COMPILING LIBFT                                       |
 --------------------------------------------------------------------------------------------
@@ -68,3 +68,28 @@ ft_lstmap             ok             failure     compil. failed   compil. failed
 ft_lstlast            ok             failure     compil. failed   compil. failed      KO
 
 Total : 0/9
+
+----------LIBFT TESTER----------
+
+[Mandatory]
+ft_memset	: 1.OK 2.OK 
+ft_bzero	: 1.OK 2.OK 3.OK 
+ft_memcpy	: 1.OK 2.OK 
+ft_memmove	: 1.OK 2.OK 3.OK 4.OK 
+ft_memchr	: 1.OK 2.OK 3.OK 4.OK 5.OK 
+ft_memcmp	: 1.OK 2.OK 3.OK 4.OK 5.OK 
+ft_strlen	: 1.OK 2.OK 
+ft_isalpha	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 
+ft_isdigit	: 1.OK 2.OK 3.OK 4.OK 
+ft_isalnum	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 
+ft_isascii	: 1.OK 2.OK 3.OK 4.OK 
+ft_isprint	: 1.OK 2.OK 3.OK 4.OK 
+ft_toupper	: 1.OK 2.OK 3.OK 4.OK 
+ft_tolower	: 1.OK 2.OK 3.OK 4.OK 
+ft_strchr	: 1.OK 2.OK 3.OK 4.OK 5.OK 
+ft_strrchr	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 
+ft_strncmp	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 
+ft_strlcpy	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 
+ft_strlcat	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
+ft_strnstr	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 
+ft_atoi		: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
