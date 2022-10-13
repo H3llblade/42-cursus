@@ -1,5 +1,20 @@
-War Machine test on my FTLIB
+--------------------------------------------------------------------------------------------
+|                                           LIBFT                                          |
+--------------------------------------------------------------------------------------------
+Tested with: War Machine + Libft Tester
 Updated: Oct 13 2022
+DESCRIPTION: 	this project is about understanding the way these functions work,
+		implementing and learning to use them. Your will create your own library.
+--------------------------------------------------------------------------------------------
+|                                    PATCH NOTES 0.0.8                                     |
+--------------------------------------------------------------------------------------------
+ADDED FUNCTION: ft_calloc.c
+ADDED FUNCTION: MAKEFILE
+
+UPDATED FUNCTION: NONE
+
+GLOBAL UPDATE: Readme.txt file with a better Graphic experience
+
 --------------------------------------------------------------------------------------------
 |                                    COMPILING LIBFT                                       |
 --------------------------------------------------------------------------------------------
@@ -13,7 +28,7 @@ Part1 functions
 FUNCTION              NORME          COMPIL.     FORBIDDEN FUNC.  TESTS               RESULT
 ft_memset             ok             success     clean            ✓✓✓✓                OK
 ft_bzero              ok             success     clean            ✓✓                  OK
-ft_calloc             ok             failure     compil. failed   compil. failed      KO
+ft_calloc             ok             success     clean            ✓                   OK
 ft_memcpy             ok             success     clean            ✓✓✓                 OK
 ft_memmove            ok             success     clean            ✓✓✓✓✓               OK
 ft_memchr             ok             success     clean            ✓✓✓✓✓✓              OK
@@ -69,7 +84,9 @@ ft_lstlast            ok             failure     compil. failed   compil. failed
 
 Total : 0/9
 
-----------LIBFT TESTER----------
+--------------------------------------------------------------------------------------------
+|                                    LIBFT TESTER                                          |
+--------------------------------------------------------------------------------------------
 
 [Mandatory]
 ft_memset	: 1.OK 2.OK 
@@ -92,4 +109,5 @@ ft_strncmp	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.O
 ft_strlcpy	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 
 ft_strlcat	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
 ft_strnstr	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 
-ft_atoi		: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
+ft_atoi	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
+ft_calloc	: 1.OK 2.MOK 3.OK 
