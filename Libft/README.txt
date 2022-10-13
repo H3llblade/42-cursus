@@ -14,18 +14,18 @@ FUNCTION              NORME          COMPIL.     FORBIDDEN FUNC.  TESTS         
 ft_memset             ok             success     clean            ✓✓✓✓                OK
 ft_bzero              ok             success     clean            ✓✓                  OK
 ft_calloc             ok             failure     compil. failed   compil. failed      KO
-ft_memcpy             ok             failure     compil. failed   compil. failed      KO
+ft_memcpy             ok             success     clean            ✓✓✓                 OK
 ft_memmove            ok             success     clean            ✓✓✓✓✓               OK
 ft_memchr             ok             success     clean            ✓✓✓✓✓✓              OK
 ft_memcmp             ok             success     clean            ✓✓✓✓✓✓✓✓✓           OK
 ft_strlen             ok             success     clean            ✓✓✓✓✓✓              OK
 ft_strdup             ok             failure     compil. failed   compil. failed      KO
-ft_strlcat            ok             success     clean            ✗✗✗✗✗✗✗✗✗           KO
+ft_strlcat            ok             success     clean            ✓✓✓✓✓✓✓✓✓           OK
 ft_strlcpy            ok             success     clean            ✓✓✓✓✓               OK
 ft_strchr             ok             success     clean            ✓✓✓✓✓✓              OK
 ft_strrchr            ok             success     clean            ✓✓✓✓✓✓✓✓            OK
-ft_strnstr            ok             success     clean            ✓✓✓✓✗✓✗✓✓✗          KO
-ft_strncmp            ok             success     clean            ✓✓✓✓✓✓✓✓✓✓✗         KO
+ft_strnstr            ok             success     clean            ✓✓✓✓✓✓✓✓✓✓          OK
+ft_strncmp            ok             success     clean            ✓✓✓✓✓✓✓✓✓✓✓         OK
 ft_atoi               ok             success     clean            ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓ OK
 ft_isalpha            ok             success     clean            ✓✓✓✓✓✓✓             OK
 ft_isdigit            ok             success     clean            ✓✓✓✓✓✓✓             OK
@@ -35,7 +35,7 @@ ft_isprint            ok             success     clean            ✓✓✓✓�
 ft_toupper            ok             success     clean            ✓✓✓✓✓✓✓             OK
 ft_tolower            ok             success     clean            ✓✓✓✓✓✓✓             OK
 
-Total : 17/23
+Total : 21/23
 
 Part2 functions
 
