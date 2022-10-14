@@ -1,19 +1,22 @@
 --------------------------------------------------------------------------------------------
 |                                           LIBFT                                          |
 --------------------------------------------------------------------------------------------
-Tested with: War Machine + Libft Tester
-Updated: Oct 13 2022
-DESCRIPTION: 	this project is about understanding the way these functions work,
+Tested with: 	War Machine + Libft Tester
+
+Updated: 	Oct 14 2022
+
+DESCRIPTION: 	This project is about understanding the way these functions work,
 		implementing and learning to use them. Your will create your own library.
 --------------------------------------------------------------------------------------------
-|                                    PATCH NOTES 0.0.8                                     |
+|                                    PATCH NOTES 0.0.9                                     |
 --------------------------------------------------------------------------------------------
-ADDED FUNCTION: ft_calloc.c
-ADDED FUNCTION: MAKEFILE
+ADDED FUNCTION: ft_strdup.c\ft_substr.c
 
-UPDATED FUNCTION: NONE
+ADDED FUNCTION: 
 
-GLOBAL UPDATE: Readme.txt file with a better Graphic experience
+UPDATED FUNCTION: 
+
+GLOBAL UPDATE: Readme.txt file. MKO error will not valued during the Moulinette's test.
 
 --------------------------------------------------------------------------------------------
 |                                    COMPILING LIBFT                                       |
@@ -34,7 +37,7 @@ ft_memmove            ok             success     clean            ✓✓✓✓�
 ft_memchr             ok             success     clean            ✓✓✓✓✓✓              OK
 ft_memcmp             ok             success     clean            ✓✓✓✓✓✓✓✓✓           OK
 ft_strlen             ok             success     clean            ✓✓✓✓✓✓              OK
-ft_strdup             ok             failure     compil. failed   compil. failed      KO
+ft_strdup             ok             success     clean            ✓                   OK
 ft_strlcat            ok             success     clean            ✓✓✓✓✓✓✓✓✓           OK
 ft_strlcpy            ok             success     clean            ✓✓✓✓✓               OK
 ft_strchr             ok             success     clean            ✓✓✓✓✓✓              OK
@@ -50,13 +53,13 @@ ft_isprint            ok             success     clean            ✓✓✓✓�
 ft_toupper            ok             success     clean            ✓✓✓✓✓✓✓             OK
 ft_tolower            ok             success     clean            ✓✓✓✓✓✓✓             OK
 
-Total : 21/23
+Total : 23/23
 
 Part2 functions
 
 FUNCTION              NORME          COMPIL.     FORBIDDEN FUNC.  TESTS               RESULT
 ft_strmapi            ok             failure     compil. failed   compil. failed      KO
-ft_substr             ok             failure     compil. failed   compil. failed      KO
+ft_substr             ok             success     clean            ✓✓✓✓✓               OK
 ft_strjoin            ok             failure     compil. failed   compil. failed      KO
 ft_strtrim            ok             failure     compil. failed   compil. failed      KO
 ft_split              ok             failure     compil. failed   compil. failed      KO
@@ -67,7 +70,7 @@ ft_putstr_fd          ok             failure     compil. failed   compil. failed
 ft_putendl_fd         ok             failure     compil. failed   compil. failed      KO
 ft_putnbr_fd          ok             failure     compil. failed   compil. failed      KO
 
-Total : 0/11
+Total : 1/11
 
 Bonus functions
 
@@ -109,5 +112,7 @@ ft_strncmp	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.O
 ft_strlcpy	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 
 ft_strlcat	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
 ft_strnstr	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 
-ft_atoi	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
+ft_atoi		: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
 ft_calloc	: 1.OK 2.MOK 3.OK 
+ft_strdup	: 1.OK 2.MOK 3.OK 4.MOK 
+ft_substr	: 1.OK 2.MKO 3.OK 4.MOK 5.OK 6.MKO 7.OK 8.MKO 9.OK 10.MKO 11.OK 12.MOK 13.OK 14.MOK 15.OK 16.MOK
