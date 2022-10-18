@@ -3,14 +3,14 @@
 --------------------------------------------------------------------------------------------
 Tested with: 	War Machine + Libft Tester
 
-Updated: 	Oct 14 2022
+Updated: 	Oct 18 2022
 
 DESCRIPTION: 	This project is about understanding the way these functions work,
 		implementing and learning to use them. Your will create your own library.
 --------------------------------------------------------------------------------------------
 |                                    PATCH NOTES 0.0.9                                     |
 --------------------------------------------------------------------------------------------
-ADDED FUNCTION: ft_strdup.c\ft_substr.c
+ADDED FUNCTION: ft_strtrim.c\ft_split.c\ft_itoa.c\ft_strmapi.c\
 
 ADDED FUNCTION: 
 
@@ -58,19 +58,19 @@ Total : 23/23
 Part2 functions
 
 FUNCTION              NORME          COMPIL.     FORBIDDEN FUNC.  TESTS               RESULT
-ft_strmapi            ok             failure     compil. failed   compil. failed      KO
+ft_strmapi            ok             success     clean            ✓                   OK
 ft_substr             ok             success     clean            ✓✓✓✓✓               OK
-ft_strjoin            ok             failure     compil. failed   compil. failed      KO
-ft_strtrim            ok             failure     compil. failed   compil. failed      KO
-ft_split              ok             failure     compil. failed   compil. failed      KO
-ft_itoa               ok             failure     compil. failed   compil. failed      KO
+ft_strjoin            ok             success     clean            ✓✓✓✓                OK
+ft_strtrim            ok             success     clean            ✓✓✓✓✓               OK
+ft_split              ok             success     clean            ✓✓✓✓✓✓              OK
+ft_itoa               ok             success     clean            ✓✓✓✓✓✓✓✓✓✓          OK
 ft_striteri           ok             failure     compil. failed   compil. failed      KO
 ft_putchar_fd         ok             failure     compil. failed   compil. failed      KO
 ft_putstr_fd          ok             failure     compil. failed   compil. failed      KO
 ft_putendl_fd         ok             failure     compil. failed   compil. failed      KO
 ft_putnbr_fd          ok             failure     compil. failed   compil. failed      KO
 
-Total : 1/11
+Total : 6/11
 
 Bonus functions
 
@@ -115,4 +115,9 @@ ft_strnstr	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.O
 ft_atoi		: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 
 ft_calloc	: 1.OK 2.MOK 3.OK 
 ft_strdup	: 1.OK 2.MOK 3.OK 4.MOK 
-ft_substr	: 1.OK 2.MKO 3.OK 4.MOK 5.OK 6.MKO 7.OK 8.MKO 9.OK 10.MKO 11.OK 12.MOK 13.OK 14.MOK 15.OK 16.MOK
+ft_substr	: 1.OK 2.MKO 3.OK 4.MOK 5.OK 6.MKO 7.OK 8.MKO 9.OK 10.MKO 11.OK 12.MOK 13.OK 14.MOK 15.OK 16.MOK 
+ft_strjoin	: 1.OK 2.MOK 3.OK 4.MOK 5.OK 6.MOK 7.OK 8.MOK 
+ft_strtrim	: 1.OK 2.MOK 3.OK 4.MOK 5.OK 6.MOK 7.OK 8.MKO 9.OK 10.MKO 11.OK 12.MOK 13.OK 14.MKO 15.OK 16.MOK 
+ft_split	: 1.MOK 2.OK 3.MOK 4.OK 5.MOK 6.OK 7.OK 8.OK 9.OK 10.OK 11.MOK 12.OK 13.OK 14.MOK 15.OK 16.MOK 17.OK 18.OK 19.MOK 20.OK 21.OK 22.MOK 23.OK 24.OK 25.MOK 26.OK 27.MOK 28.OK 29.MOK 30.OK 31.MOK 32.OK 33.MOK 34.OK 35.MOK 36.OK 37.MOK 38.OK 39.MOK 40.OK 41.MOK 42.OK 
+ft_itoa		: 1.OK 2.MOK 3.OK 4.MOK 5.OK 6.MOK 7.OK 8.MOK 9.OK 10.MOK 11.OK 12.MOK 
+ft_strmapi	: 1.OK 2.MOK 3.OK 4.MOK 
