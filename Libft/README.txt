@@ -8,11 +8,9 @@ Updated: 	Oct 18 2022
 DESCRIPTION: 	This project is about understanding the way these functions work,
 		implementing and learning to use them. Your will create your own library.
 --------------------------------------------------------------------------------------------
-|                                    PATCH NOTES 0.0.9                                     |
+|                                    PATCH NOTES 0.1.0                                     |
 --------------------------------------------------------------------------------------------
-ADDED FUNCTION: ft_strtrim.c\ft_split.c\ft_itoa.c\ft_strmapi.c\
-
-ADDED FUNCTION: 
+ADDED FUNCTION: ft_striteri.c\ft_putchar_fd\ft_putstr_fd\ft_putendl_fd\ft_putnbr_fd\ 
 
 UPDATED FUNCTION: 
 
@@ -64,13 +62,13 @@ ft_strjoin            ok             success     clean            ✓✓✓✓  
 ft_strtrim            ok             success     clean            ✓✓✓✓✓               OK
 ft_split              ok             success     clean            ✓✓✓✓✓✓              OK
 ft_itoa               ok             success     clean            ✓✓✓✓✓✓✓✓✓✓          OK
-ft_striteri           ok             failure     compil. failed   compil. failed      KO
-ft_putchar_fd         ok             failure     compil. failed   compil. failed      KO
-ft_putstr_fd          ok             failure     compil. failed   compil. failed      KO
-ft_putendl_fd         ok             failure     compil. failed   compil. failed      KO
-ft_putnbr_fd          ok             failure     compil. failed   compil. failed      KO
+ft_striteri           ok             success     clean            ✓                   OK
+ft_putchar_fd         ok             success     clean            ✓✓✓✓✓✓✓             OK
+ft_putstr_fd          ok             success     clean            ✓✓✓✓                OK
+ft_putendl_fd         ok             success     clean            ✓✓✓✓                OK
+ft_putnbr_fd          ok             success     clean            ✓✓✓✓✓✓✓✓✓           OK
 
-Total : 6/11
+Total : 11/11
 
 Bonus functions
 
@@ -121,3 +119,8 @@ ft_strtrim	: 1.OK 2.MOK 3.OK 4.MOK 5.OK 6.MOK 7.OK 8.MKO 9.OK 10.MKO 11.OK 12.MO
 ft_split	: 1.MOK 2.OK 3.MOK 4.OK 5.MOK 6.OK 7.OK 8.OK 9.OK 10.OK 11.MOK 12.OK 13.OK 14.MOK 15.OK 16.MOK 17.OK 18.OK 19.MOK 20.OK 21.OK 22.MOK 23.OK 24.OK 25.MOK 26.OK 27.MOK 28.OK 29.MOK 30.OK 31.MOK 32.OK 33.MOK 34.OK 35.MOK 36.OK 37.MOK 38.OK 39.MOK 40.OK 41.MOK 42.OK 
 ft_itoa		: 1.OK 2.MOK 3.OK 4.MOK 5.OK 6.MOK 7.OK 8.MOK 9.OK 10.MOK 11.OK 12.MOK 
 ft_strmapi	: 1.OK 2.MOK 3.OK 4.MOK 
+ft_putchar_fd	: 1.OK 
+ft_putstr_fd	: 1.OK 
+ft_putendl_fd	: 1.OK 
+ft_putnbr_fd	: 1.OK 2.OK 3.OK 4.OK 5.OK 
+ft_striteri	: 1.OK 2.OK 3.OK
