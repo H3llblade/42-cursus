@@ -8,9 +8,9 @@ Updated: 	Oct 18 2022
 DESCRIPTION: 	This project is about understanding the way these functions work,
 		implementing and learning to use them. Your will create your own library.
 --------------------------------------------------------------------------------------------
-|                                    PATCH NOTES 0.1.0                                     |
+|                                    PATCH NOTES 0.1.1                                     |
 --------------------------------------------------------------------------------------------
-ADDED FUNCTION: ft_striteri.c\ft_putchar_fd\ft_putstr_fd\ft_putendl_fd\ft_putnbr_fd\ 
+ADDED FUNCTION: all the bonus functions
 
 UPDATED FUNCTION: 
 
@@ -73,17 +73,17 @@ Total : 11/11
 Bonus functions
 
 FUNCTION              NORME          COMPIL.     FORBIDDEN FUNC.  TESTS               RESULT
-ft_lstnew             ok             failure     compil. failed   compil. failed      KO
-ft_lstdelone          ok             failure     compil. failed   compil. failed      KO
-ft_lstclear           ok             failure     compil. failed   compil. failed      KO
-ft_lstadd_front       ok             failure     compil. failed   compil. failed      KO
-ft_lstadd_back        ok             failure     compil. failed   compil. failed      KO
-ft_lstsize            ok             failure     compil. failed   compil. failed      KO
-ft_lstiter            ok             failure     compil. failed   compil. failed      KO
-ft_lstmap             ok             failure     compil. failed   compil. failed      KO
-ft_lstlast            ok             failure     compil. failed   compil. failed      KO
+ft_lstnew             ok             success     clean            ✓✓✓                 OK
+ft_lstdelone          ok             success     clean            ✓                   OK
+ft_lstclear           ok             success     clean            ✓                   OK
+ft_lstadd_front       ok             success     clean            ✓                   OK
+ft_lstadd_back        ok             success     clean            ✓                   OK
+ft_lstsize            ok             success     clean            ✓                   OK
+ft_lstiter            ok             success     clean            ✓                   OK
+ft_lstmap             ok             success     clean            ✓                   OK
+ft_lstlast            ok             success     clean            ✓                   OK
 
-Total : 0/9
+Total : 9/9
 
 --------------------------------------------------------------------------------------------
 |                                    LIBFT TESTER                                          |
@@ -124,3 +124,13 @@ ft_putstr_fd	: 1.OK
 ft_putendl_fd	: 1.OK 
 ft_putnbr_fd	: 1.OK 2.OK 3.OK 4.OK 5.OK 
 ft_striteri	: 1.OK 2.OK 3.OK
+[Bonus]
+ft_lstnew	: 1.OK 2.OK 3.MOK
+ft_lstadd_front	: 1.OK 2.OK 3.OK 4.OK 5.OK 
+ft_lstsize	: 1.OK 2.OK 3.OK 
+ft_lstlast	: 1.OK 2.OK 3.OK 4.OK 
+ft_lstadd_back	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+ft_lstdelone	: 
+ft_lstclear	: 1.OK 
+ft_lstiter	: 1.OK 2.OK 3.OK 4.OK 
+ft_lstmap	: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK
