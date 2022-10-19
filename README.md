@@ -5,6 +5,5 @@ In this repository, you'll find all my projects created, edited and validated of
 
 [🖥️ WORK IN PROGRESS PROJECTS 🖥️]
 
-1) [Libft](https://github.com/H3llblade/42-cursus/tree/main/Libft) - working on it (may be uncorrect)
-
 [✅ COMPLETED PROJECTS ✅]
+1) [Libft](https://github.com/H3llblade/42-cursus/tree/main/Libft) - 125% Score
