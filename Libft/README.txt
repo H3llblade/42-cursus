@@ -8,11 +8,11 @@ Updated: 	Oct 18 2022
 DESCRIPTION: 	This project is about understanding the way these functions work,
 		implementing and learning to use them. Your will create your own library.
 --------------------------------------------------------------------------------------------
-|                                    PATCH NOTES 0.1.1                                     |
+|                                    PATCH NOTES 1.0.0                                     |
 --------------------------------------------------------------------------------------------
-ADDED FUNCTION: all the bonus functions
+ADDED FUNCTION: NONE
 
-UPDATED FUNCTION: 
+UPDATED FUNCTION: Edit on different functions according to norm and compiling.
 
 GLOBAL UPDATE: Readme.txt file. MKO error will not valued during the Moulinette's test.
 
