@@ -5,7 +5,7 @@ In this repository, you'll find all my projects created, edited and validated of
 
 [🖥️ WORK IN PROGRESS PROJECTS 🖥️]
 - Born2beroot (will be added the folder with readme.md in a week)
-- get_next_line
+- get_next_line (soon)
 
 [✅ COMPLETED PROJECTS ✅]
 - [Libft](https://github.com/H3llblade/42-cursus/tree/main/Libft) - 125% Score
