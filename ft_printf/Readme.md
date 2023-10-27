@@ -1,8 +1,8 @@
 ft_printf (42cursus) 2022-2023
 
-    Actual Status : Completed without bonus part
-    Result : 100%
-    Observations : Bonus parts will be added soon!
+    Actual Status : X
+    Result : X
+    Observations : NULL
     
 ![image](https://user-images.githubusercontent.com/106027196/199758853-d1224586-88ee-42ec-8de5-9d2bd56e5ec5.png)
 
